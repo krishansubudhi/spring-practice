@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <beans profile="prod">
+        <bean class="profile.SimpleString">
+            <constructor-arg value="Prod Profile From XML"/>
+        </bean>
+    </beans>
+
+    <beans profile="dev">
+        <bean class="profile.SimpleString">
+            <constructor-arg value="Dev Profile From XML"/>
+        </bean>
+    </beans>
+
+    <beans >
+        <bean class="profile.SimpleString">
+            <constructor-arg value="No Profile From XML"/>
+        </bean>
+    </beans>
+</beans>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--Demonstrating bean import inside xml-->
+    <import resource="smartphone-component-context.xml"/>
+
+    <bean id="oneplusone" class="phone.SmartPhone">
+        <constructor-arg ref="ThreeGBram"/>
+        <constructor-arg ref="phabletscreen"/>
+    </bean>
+
+
+    <bean id="oneplus2" class="phone.SmartPhone">
+        <constructor-arg ref="FourGBram"/>
+        <constructor-arg ref="phabletscreen"/>
+    </bean>
+
+    <bean id="audience" class="phone.aspect.Audience"/>
+    <!--aspect did now work with minimal config with spring-aop and aspectjtools added as dependencies-->
+    <aop:config>
+        <aop:aspect ref="audience">
+            <aop:pointcut id="showOff" expression="execution(* *.showOff(..))"/>
+            <aop:before method="gather" pointcut-ref="showOff"/>
+            <aop:after method="disperse" pointcut-ref="showOff"/>
+        </aop:aspect>
+    </aop:config>
+
+    <!--This also did not make aspects work.-->
+    <aop:aspectj-autoproxy/>
+</beans>

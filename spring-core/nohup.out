@@ -1,0 +1,38 @@
+[   7261]   WARN - om.intellij.util.ProfilingUtil - Profiling agent is not enabled. Add -agentlib:yjpagent to idea.vmoptions if necessary to profile IDEA. 
+[  11086]   WARN - .ExternalResourceManagerExImpl - Cannot find standard resource. filename:/META-INF/tapestry_5_3.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null 
+[  65129]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+[   6983]   WARN - om.intellij.util.ProfilingUtil - Profiling agent is not enabled. Add -agentlib:yjpagent to idea.vmoptions if necessary to profile IDEA. 
+[  10563]   WARN - .ExternalResourceManagerExImpl - Cannot find standard resource. filename:/META-INF/tapestry_5_3.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null 
+[ 309175]  ERROR -        cppsupport.communicator - Unexpected server exit 
+Unexpected server exit
+[ 309177]  ERROR -        cppsupport.communicator - IntelliJ IDEA 14.1.5  Build #IU-141.2735.5 
+[ 309177]  ERROR -        cppsupport.communicator - JDK: 1.7.0_80 
+[ 309178]  ERROR -        cppsupport.communicator - VM: Java HotSpot(TM) 64-Bit Server VM 
+[ 309178]  ERROR -        cppsupport.communicator - Vendor: Oracle Corporation 
+[ 309178]  ERROR -        cppsupport.communicator - OS: Linux 
+[ 309178]  ERROR -        cppsupport.communicator - Last Action: NewModule 
+[ 521246]  ERROR -        cppsupport.communicator - Unexpected server exit 
+Unexpected server exit
+[ 521248]  ERROR -        cppsupport.communicator - IntelliJ IDEA 14.1.5  Build #IU-141.2735.5 
+[ 521248]  ERROR -        cppsupport.communicator - JDK: 1.7.0_80 
+[ 521248]  ERROR -        cppsupport.communicator - VM: Java HotSpot(TM) 64-Bit Server VM 
+[ 521249]  ERROR -        cppsupport.communicator - Vendor: Oracle Corporation 
+[ 521249]  ERROR -        cppsupport.communicator - OS: Linux 
+[ 521249]  ERROR -        cppsupport.communicator - Last Action: NewModule 
+[ 767465]  ERROR -        cppsupport.communicator - Unexpected server exit 
+Unexpected server exit
+[ 767466]  ERROR -        cppsupport.communicator - IntelliJ IDEA 14.1.5  Build #IU-141.2735.5 
+[ 767467]  ERROR -        cppsupport.communicator - JDK: 1.7.0_80 
+[ 767467]  ERROR -        cppsupport.communicator - VM: Java HotSpot(TM) 64-Bit Server VM 
+[ 767467]  ERROR -        cppsupport.communicator - Vendor: Oracle Corporation 
+[ 767468]  ERROR -        cppsupport.communicator - OS: Linux 
+[ 767468]  ERROR -        cppsupport.communicator - Last Action: ImportModule 
+[ 802481]  ERROR -        cppsupport.communicator - Unexpected server exit 
+Unexpected server exit
+[ 802483]  ERROR -        cppsupport.communicator - IntelliJ IDEA 14.1.5  Build #IU-141.2735.5 
+[ 802483]  ERROR -        cppsupport.communicator - JDK: 1.7.0_80 
+[ 802484]  ERROR -        cppsupport.communicator - VM: Java HotSpot(TM) 64-Bit Server VM 
+[ 802484]  ERROR -        cppsupport.communicator - Vendor: Oracle Corporation 
+[ 802484]  ERROR -        cppsupport.communicator - OS: Linux 
+[ 802484]  ERROR -        cppsupport.communicator - Last Action: ChooseRunConfiguration 
+[1819847]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
