@@ -8,9 +8,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title></title>
+    <title>
+      Sample Web Application
+    </title>
 </head>
 <body>
-
+<p>
+Hello
+</p>
+<p>I am Home Page of my master Krishan's latest web app.</p>
 </body>
 </html>
